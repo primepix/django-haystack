@@ -121,7 +121,7 @@ having it in place but know that it's not required.
 In your URLconf, you'll need to switch to the ``FacetedSearchView``. Your
 URLconf should resemble::
 
-    from django.conf.urls.defaults import *
+    from django.conf.urls import *
     from haystack.forms import FacetedSearchForm
     from haystack.query import SearchQuerySet
     from haystack.views import FacetedSearchView

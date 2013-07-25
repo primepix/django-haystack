@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 from haystack.backends.dummy_backend import SearchBackend, SearchQuery
 from haystack.forms import FacetedSearchForm
 from haystack.query import SearchQuerySet
