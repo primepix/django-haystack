@@ -146,7 +146,7 @@ custom search limited to the 'John' author, displaying all models to search by
 and specifying a custom template (``my/special/path/john_search.html``), your
 URLconf should look something like::
 
-    from django.conf.urls.defaults import *
+    from django.conf.urls import *
     from haystack.forms import ModelSearchForm
     from haystack.query import SearchQuerySet
     from haystack.views import SearchView
